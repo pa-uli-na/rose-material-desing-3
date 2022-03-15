@@ -2,19 +2,24 @@
   "name": "ross-material-ui",
   "private": true,
   "version": "0.0.0",
+  "description": "Material Design 3 + Vue 3",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "@material/mwc-button": "^0.25.3",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
-    "material-components-web": "^13.0.0",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"
+  },
+  "dependencies": {
+    "@material/mwc-textfield": "^0.25.3"
   }
 }
