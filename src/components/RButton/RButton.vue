@@ -14,7 +14,14 @@ defineProps({
 </script>
 
 <template>
-  <mwc-button :label="label" :outlined="outlined" :raised="raised">
+  <mwc-button
+    :icon="icon"
+    :label="label"
+    :disabled="disabled"
+    :outlined="outlined"
+    :raised="raised"
+    :trailingIcon="trailingIcon"
+  >
   </mwc-button>
 </template>
 
