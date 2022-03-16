@@ -14,12 +14,11 @@ defineProps({
 </script>
 
 <template>
-  <mwc-button :label="label" :outlined="outlined" :raised="raised">
-  </mwc-button>
+  <mwc-textfield :label="label"></mwc-textfield>
 </template>
 
 <script lang="ts">
 export default defineComponent({
-  name: "RButton",
+  name: "RInput",
 });
 </script>
