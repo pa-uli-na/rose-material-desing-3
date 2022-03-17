@@ -3,9 +3,6 @@ import RInput from "../components/RInput/RInput.vue";
 export default {
   title: "RInput",
   component: RInput,
-  decorators: [
-    () => ({ template: '<div style="margin: 1em;"><story/></div>' }),
-  ],
 };
 
 const Template = (args) => ({

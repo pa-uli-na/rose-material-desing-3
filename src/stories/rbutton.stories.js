@@ -3,9 +3,6 @@ import RButton from "../components/RButton/RButton.vue";
 export default {
   title: "RButton",
   component: RButton,
-  decorators: [
-    () => ({ template: '<div style="margin: 1em;"><story/></div>' }),
-  ],
 };
 
 const Template = (args) => ({

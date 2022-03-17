@@ -25,9 +25,18 @@
     "vue-tsc": "^0.29.8"
   },
   "dependencies": {
+    "@material/animation": "^14.0.0-canary.261f2db59.0",
+    "@material/layout-grid": "^13.0.0",
     "@material/mwc-button": "^0.25.3",
+    "@material/mwc-checkbox": "^0.25.3",
+    "@material/mwc-formfield": "^0.25.3",
+    "@material/mwc-icon-button": "^0.25.3",
+    "@material/mwc-radio": "^0.25.3",
+    "@material/mwc-switch": "^0.25.3",
     "@material/mwc-textfield": "^0.25.3",
+    "@material/mwc-top-app-bar-fixed": "^0.25.3",
     "@material/theme": "^14.0.0-canary.261f2db59.0",
+    "@material/typography": "^14.0.0-canary.261f2db59.0",
     "@webcomponents/webcomponentsjs": "^2.6.0",
     "vue": "^3.2.25"
   }
