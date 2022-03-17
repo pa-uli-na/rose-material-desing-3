@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import router from "./router";
 
 import "./theme/styles.css";
 
@@ -19,4 +20,4 @@ import "@material/mwc-line-ripple";
 
 import "@material/animation";
 
-createApp(App).mount("#app");
+createApp(App).use(router).mount("#app");

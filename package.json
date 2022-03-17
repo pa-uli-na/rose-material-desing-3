@@ -38,6 +38,7 @@
     "@material/theme": "^14.0.0-canary.261f2db59.0",
     "@material/typography": "^14.0.0-canary.261f2db59.0",
     "@webcomponents/webcomponentsjs": "^2.6.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
   }
 }
